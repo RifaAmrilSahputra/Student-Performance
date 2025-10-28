@@ -33,3 +33,10 @@ Dataset digunakan berasal dari Kaggle: [Student Performance Dataset](https://www
 ## Tools
 - R, RStudio
 - Packages: `dplyr`, `ggplot2`, `caret`, `randomForest`, `xgboost`, `corrplot`, `summarytools`, `Metrics`
+
+
+## Development Environment
+
+This project is developed using **R** and can be run in a standard R environment (`.R` scripts) or in **Jupyter Notebook (`.ipynb`)** using the **IRKernel**.  
+- Using Jupyter allows combining **R code, visualizations, and markdown analysis** in a single interactive notebook.  
+- Compatible with Kaggle Notebooks for easy execution and sharing.
