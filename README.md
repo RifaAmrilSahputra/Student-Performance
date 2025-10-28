@@ -1,39 +1,37 @@
 # Student Performance Prediction
 
-Repository ini berisi analisis data dan implementasi model machine learning untuk memprediksi **Performance Index** siswa berdasarkan jam belajar, nilai sebelumnya, jam tidur, latihan soal, dan partisipasi ekstrakurikuler.
+This repository contains data analysis and machine learning models to predict students' **Performance Index** based on study hours, previous scores, sleep hours, practice sheets, and extracurricular participation.
 
 ## Dataset
-Dataset digunakan berasal dari Kaggle: [Student Performance Dataset](https://www.kaggle.com/datasets/khansaafreen/student-performance)  
-- 10.000 observasi  
-- 6 kolom: Hours.Studied, Previous.Scores, Extracurricular.Activities, Sleep.Hours, Sample.Question.Papers.Practiced, Performance.Index  
-- Tidak ada missing value  
+The dataset is sourced from Kaggle: [Student Performance Dataset](https://www.kaggle.com/datasets/khansaafreen/student-performance)  
+- 10,000 observations  
+- 6 columns: Hours.Studied, Previous.Scores, Extracurricular.Activities, Sleep.Hours, Sample.Question.Papers.Practiced, Performance.Index  
+- No missing values  
 
-## Analisis Eksploratif
-- Statistik deskriptif numerik
-- Distribusi Performance.Index
-- Analisis hubungan dengan ekstrakurikuler
-- Korelasi antar fitur
+## Exploratory Data Analysis
+- Numeric descriptive statistics  
+- Distribution of Performance.Index  
+- Analysis of relationship with extracurricular activities  
+- Correlation between features
 
-## Model Machine Learning
+## Machine Learning Models
 1. **Linear Regression**  
 2. **Random Forest**  
 3. **XGBoost**  
 
-**Hasil Evaluasi RMSE (Test Set):**
-- Linear Regression: ~2.05
-- Random Forest: ~8.17
-- XGBoost: ~2.13
+**Evaluation Results (RMSE on Test Set):**
+- Linear Regression: ~2.05  
+- Random Forest: ~8.17  
+- XGBoost: ~2.13  
 
-## Insight
-- Nilai sebelumnya (`Previous.Scores`) adalah prediktor utama.  
-- Jam belajar dan partisipasi ekstrakurikuler berpengaruh positif tapi lebih kecil.  
-- Model linear sederhana sudah optimal karena dataset sangat linear.
-
+## Insights
+- Previous scores (`Previous.Scores`) are the main predictor.  
+- Study hours and extracurricular participation have a positive but smaller impact.  
+- Simple linear models perform well because the dataset has strong linear relationships.
 
 ## Tools
-- R, RStudio
+- R, RStudio  
 - Packages: `dplyr`, `ggplot2`, `caret`, `randomForest`, `xgboost`, `corrplot`, `summarytools`, `Metrics`
-
 
 ## Development Environment
 
